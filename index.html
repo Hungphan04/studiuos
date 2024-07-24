@@ -20,28 +20,260 @@
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <!-- main css -->
     <link rel="stylesheet" href="./css/index.css">
-
 </head>
 
-<body>
+<body id="myBody">
+  <section>
+    <div  class="top__header p-2" >
+      <div class="container-fluid p-2">
+         <div class="top__content d-flex align-items-center justify-content-between">
+          <div class="top__left">
+              <ul>
+                  <li>
+                      <a href="">Have any Question ?</a>
+                  </li>
+                  <li>
+                      <i class="fa-solid fa-phone"></i>
+                      <a href="">+1(21) 234 4567</a>
+                  </li>
+                  <li>
+                      <i class="fa-solid fa-envelope"></i>
+                      <a href="">mail@example.com</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="top__right">
+              <ul>
+                  <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
+          </div>
+         </div>
+      </div>
+    </div>
+  </section>  
+  <!-- HEADER -->
+    <header>
+        <div id="mainHeader" class="header  ">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg navbar-light  pt-3">
+                <a class="navbar-brand d-flex align-items-center" href="#"><img src="./img/logo.png" alt=""><h2 class="mb-0">Studious</h2></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        PAGE
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">BLOG POST</a>
+                        <a class="dropdown-item" href="#">404 PAGE</a>
+                        <a class="dropdown-item" href="#">LANDING PGE</a>
+                        <a class="dropdown-item" href="#">ELEMENT PAGE</a>
 
-    <!-- HEADER -->
-    <header></header>
-    <!-- CAROUSEL -->
-    <section class="carousel"></section>
-    <!-- ABOUT -->
-    <section class="about"></section>
-    <!-- STUDIOUS  -->
-    <section class="studious"></section>
-    <!-- INTRO -->
-    <section class="intro"></section>
-    <!-- NUMBER -->
-    <section class="number"></section>
-    <!-- FEEDBACK  -->
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">CONTACT</a>
+                    </li>
+                  </ul>
+                  <form class="search-box position-relative">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Enter Keyword" aria-label="Search">
+                    <button class="searchBtn" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <button class="btn__mode" id="switchButton">
+                    <i class="far fa-moon"></i>
+                    <i class="far fa-sun"></i>
+                  </button>
+                </div>
+                
+              </nav>
+            </div>
+        </div>
+        
+    </header>
+  <!-- CAROUSEL -->
+    <section class="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" style="width:450px">
+              <h5 class="carousel-title">Master the Skill to Drive your Career</h5>
+              <a href="" class="btn__carousel mt-5">know more ></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="carousel-title">Studious is the best choice for everyone</h5>
+              <a href="" class="btn__carousel mt-5">know more ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- ABOUT -->
+    <section class="about pb-5">
+      <div class="container">
+          <div class="about__box row justify-content-center text-center">
+            <div class="col-3">
+              <div class="color1 p-5">
+                  <i class="fa fa-cogs"></i>
+                  <h4 class="mt-4 mb-0"><a href="">Engineering & Architect</a></h4>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="color2 p-5">
+                  <i class="fa fa-book"></i>
+                  <h4 class="mt-4 mb-0"><a href="">Learning Management</a></h4>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="color3 p-5">
+                  <i class="fa fa-coffee"></i>
+                  <h4 class="mt-4 mb-0"><a href="">Business & Management</a></h4>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="color4 p-5">
+                <i class="fa-solid fa-hourglass-half"></i>
+                  <h4 class="mt-4 mb-0"><a href="">Engineering & Architect</a></h4>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  <!-- STUDIOUS  -->
+    <section class="studious p-5">
+        <div class="container text-center pb-5">
+            <div class="studious__title pb-5 mb-5">
+                <h3>Welcome to <span>Studious</span></h3>
+            </div>
+            <div class="studious__info">
+                <div class="row text-center justify-content-center">
+                    <div class="col-lg-4">
+                      <i class="fa-solid fa-graduation-cap"></i>
+                      <h3 class="mt-4"><a href="">Trending Courses</a></h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    </div>
+                    <div class="col-lg-4">
+                      <i class="fa-solid fa-users"></i>
+                      <h3 class="mt-4"><a href="">Certified Teacher</a></h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    </div>
+                    <div class="col-lg-4">
+                      <i class="fa-solid fa-book"></i>
+                      <h3 class="mt-4"><a href="">Book & Library</a></h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- INTRO -->
+    <section class="intro py-5">
+        <div class="container d-flex">
+            <div class="col-4"></div>
+            <div class="col-8 row">
+                <div class="col-6">
+                    <div class="intro__box d-flex align-items-center p-4">
+                      <i class="fa-solid fa-hands-asl-interpreting"></i>
+                      <div class="intro__title">
+                          <h5>Flexible Classes</h5>
+                          <p>Lorem ipsum dolor sit amet, dolor elit.</p>                         
+                      </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                  <div class="intro__box d-flex align-items-center p-4">
+                    <i class="fa-solid fa-download"></i>
+                    <div class="intro__title">
+                        <h5>Flexible Classes</h5>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>                         
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="intro__box d-flex align-items-center p-4 mt-4">
+                    <i class="fa-solid fa-headphones"></i>
+                    <div class="intro__title">
+                        <h5>Flexible Classes</h5>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>                         
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="intro__box d-flex align-items-center p-4 mt-4">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <div class="intro__title">
+                        <h5>Flexible Classes</h5>
+                        <p>Lorem ipsum dolor sit amet, dolor elit.</p>                         
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- NUMBER -->
+    <section class="number p-5">
+        <div class="container p-4">
+            <div class="number__title mb-5 mx-auto">
+                <h3>Strength in <span>Numbers</span></h3>
+                <p class="mt-4 p-2">Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="number__counter">
+                <div class="container p-5">
+                  <div class="row text-center justify-content-center">
+                    <div class="col-3">
+                        <div class="counter">
+                              <div class="time">6,300</div>
+                              <p class="counter__title">LEARNERS & COUNTING</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="counter">
+                            <div class="time">638</div>
+                            <p class="counter__title">TOTAL COURSES</p>
+                      </div>
+                  </div>
+                    <div class="col-3">
+                        <div class="counter">
+                              <div class="time">7,600</div>
+                              <p class="counter__title">SUCCESSFUL STUDENTS</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="counter4">
+                            <div class="time">36</div>
+                            <p class="counter__title">LANGUAGES</p>
+                      </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- FEEDBACK  -->
     <section class="feedback"></section>
-    <!-- INSTRUCTORS -->
+  <!-- INSTRUCTORS -->
     <section class="instructors"></section>
-    <!-- CONTACT -->
+  <!-- CONTACT -->
     <section class="contact"></section>
     <footer></footer>
     <section class="demo_bar"></section>
@@ -52,7 +284,7 @@
 
 
 
-    <!-- BS5 js -->
+  <!-- BS5 js -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -60,17 +292,21 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
 
-    <!-- JQUERY -->
+  <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- JQUERY WAYPOINT -->
+  <!-- JQUERY WAYPOINT -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
-    <!-- COUNTUP -->
+  <!-- COUNTUP -->
     <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/"></script>
     <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.min.js"></script>
+    <script>
+      $(".time").countUp();
+   </script>
+   <script src="./js/java.js"></script>
 </body>
 
 </html>
