@@ -57,7 +57,7 @@ p{
     color:white;
 }
 .header{
-    background:#fff;
+    /* background:#fff; */
     height:80px;
 }
 .transition-Top{
@@ -68,7 +68,7 @@ p{
     border-bottom: none;
     z-index: 999 !important;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
-    background-color:white;
+    background-color:white!important;
 }
 
 
@@ -122,7 +122,7 @@ p{
 }
 .navbar-collapse {
     z-index: 20;
-    background: white;
+    /* background-color: white; */
     text-align:center;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -142,7 +142,6 @@ p{
 .dark .navbar-collapse {
     z-index: 20;
     align-items: center;
-    background: #161C2D;;
 }
 .dark .navbar-nav .dropdown-menu {
     background-color:#161C2D;
@@ -157,7 +156,7 @@ p{
     /* color:FF6E65; */
 }
 .dark #mainHeader{
-    background:#161C2D;
+    background:#161C2D!important;
 }
 
 .dark input{
@@ -459,9 +458,7 @@ p{
     .top__header {
       display: none;
     }
-    .header{
-        background:none;
-    }
+    
     .navbar form.search-box {
         margin-left:38%;
         width:30%
@@ -478,5 +475,17 @@ p{
     .navbar form.search-box {
         margin-left: 38%;
         width: 30%;
+    }
+    .header{
+        background-color:none;
+    }
+    .counter{
+        border-right:none;
+    }
+    .navbar-collapse{
+        background-color:white;
+    }
+    .dark .navbar-collapse{
+        background-color:#161C2D;
     }
 }
