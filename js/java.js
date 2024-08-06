@@ -2,7 +2,6 @@ document.getElementById("switchButton").onclick = function () {
     document.getElementById("myBody").classList.toggle("dark");
   };
 
-// document.getElementById("mainHeader").scroll = document.getElementById("mainHeader").classList.add("fixed-top");
 window.addEventListener('scroll', function() {
   var header = document.getElementById('mainHeader');
   if (window.scrollY > 0) {

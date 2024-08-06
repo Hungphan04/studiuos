@@ -67,7 +67,6 @@ p{
     padding: 0px;
     border-bottom: none;
     z-index: 999 !important;
-    background-color: var(--bg-color);
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     background-color:white;
 }
@@ -122,7 +121,7 @@ p{
     border: 2px solid #eee;
 }
 .navbar-collapse {
-    z-index: 1;
+    z-index: 20;
     background: white;
     text-align:center;
 }
@@ -141,7 +140,7 @@ p{
     color: white;
 }
 .dark .navbar-collapse {
-    z-index: 1;
+    z-index: 20;
     align-items: center;
     background: #161C2D;;
 }
@@ -162,7 +161,7 @@ p{
 }
 
 .dark input{
-    color:white;
+    color:white!important;
     border:1px solid #161C2D;
 }
 .dark #switchButton {
@@ -470,4 +469,14 @@ p{
     .carousel-item {
         height: auto;
     }
+    .navbar form.search-box {
+        margin-left: 0;
+        width: 30%;
+    }
   }
+@media (max-width: 990px) {
+    .navbar form.search-box {
+        margin-left: 38%;
+        width: 30%;
+    }
+}
