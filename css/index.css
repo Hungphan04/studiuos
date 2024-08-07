@@ -133,7 +133,7 @@
 
 .instructors__item {
     background-color: white;
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
     padding: 15px;
     overflow: hidden;
@@ -161,11 +161,6 @@
     color: #ff6e65;
 }
 
-/* .instructors__item:hover .instructors__overlay {
-    transform: translateY(0);
-    opacity: 1;
-} */
-
 .instructors__overlay {
     background-color: rgba(130, 127, 127, 0.6);
     position: absolute;
@@ -178,14 +173,8 @@
 
 }
 
-/* .instructors__overlay:hover {
-    background-color: rgba(130, 127, 127, 0.4);
-    display: block;
-    transform: translateY(0);
-    
-} */
 .instructors__item:hover .instructors__overlay {
-    background-color: rgba(130, 127, 127, 0.4);
+    background: rgb(8 8 8 / 29%);
     bottom: 0;
 }
 
@@ -341,8 +330,9 @@ footer {
 
 .footer__item h2 {
     color: white;
-    /* border-bottom: 1px solid rgba(23, 54, 88, 0.4); */
+    text-transform: uppercase;
     margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .footer__item ul {
@@ -358,15 +348,26 @@ footer {
 }
 
 .footer__item i {
-    font-size: 13px;
+    font-size: 15px;
     color: white;
 }
 
 .footer__item span {
     color: #cecece;
     font-size: 18px;
+    transition: 0.5s;
 }
-
+.footer__item strong{
+    font-size: 18px;
+    color: #cecece;
+    font-weight: 300;
+}
+.footer__item .content{
+    color: #cecece;
+}
+.footer__item span:hover{
+    color: white;
+} 
 .footer__item p {
     font-size: 18px;
     color: #cecece;
@@ -376,7 +377,10 @@ footer {
 .footer__social ul {
     display: flex;
 }
-
+.footer__social a:hover{
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
 .footer__social a {
     width: 40px;
     height: 40px;
@@ -408,9 +412,8 @@ footer {
 /* BACK TO TOP */
 .backtotop {
     position: fixed;
-    bottom: 90px;
+    bottom: 100px;
     right: 15px;
-
     visibility: hidden;
     opacity: 0;
 }
@@ -424,8 +427,9 @@ footer {
     color: white;
     font-size: 16px;
     background: #0d369f;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
+    border-radius: 4px;
 }
